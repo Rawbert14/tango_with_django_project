@@ -11,13 +11,14 @@ About Rango
     <div>
         hey there partner! <br />
         <strong>This tutorial has been put toghether by Anderco Robert</strong><br />
+        <p>Visits: {{ visits}}</p>
     </div>
     <div>
         <!--
-        <a href="/rango/">Index</a><br /> -->
+    <a href="/rango/">Index</a><br /> -->
         <img src="{% static 'images/rango.jpg' %}"
              alt="Picture of Rango" />
-        <img src="{{ MEDIA_URL }}cat.jpg" alt="Picture of a Cat." />
-    </div>
+        <!--<img src="{{ MEDIA_URL }}cat.jpg" alt="Picture of a Cat." /> -->
+        </div>
 
-{% endblock%}
+    {% endblock%}
